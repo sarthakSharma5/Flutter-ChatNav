@@ -10,12 +10,15 @@ Flutter integration with Firebase for
 * Email Authentication
 * Data storage in [Cloud Firestore](https://firebase.google.com/docs/firestore)
 
+Use of Google's [Map SDK](https://developers.google.com/maps/documentation/android-sdk/overview) to allow use of Google Maps in App
+
 Added <B>android/app/google-services.json</B> to [.gitignore](.gitignore) required for [Firebase integration](https://firebase.google.com/docs/android/setup)
 
 Packages Used: mentioned in [pubspec.yaml](pubspec.yaml)
 
 ### Important!
 Removed Google API key from [AndroidManifest.xml](android/app/src/main/AndroidManifest.xml) at <B>line 13</B> for security reasons
+* Required for Google Maps: [reference](https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0)
 
 <HR>
 
